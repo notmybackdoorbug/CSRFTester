@@ -1,9 +1,9 @@
 import requests
 
 # Configuration
-base_url = ""  # Replace with your APEX app's base URL
-login_url = base_url + ""  # URL for login
-csrf_test_url = base_url + ""  # URL where you want to test CSRF (like form submission)
+base_url = input("Enter base_urls")  # Replace with your APEX app's base URL
+login_url = base_url + input("Enter login_url")  # URL for login
+csrf_test_url = base_url + input("Enter csrf_test_url")  # URL where you want to test CSRF (like form submission)
 
 # User credentials
 username = ""
